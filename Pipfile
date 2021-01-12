@@ -6,7 +6,7 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-jupyterlab = "*"
+jupyterlab = ">=3.0"
 httpx = "*"
 reportlab = "*"
 python-dotenv = "*"
@@ -14,6 +14,7 @@ pandas = "*"
 geojson = "*"
 ipyleaflet = "*"
 tqdm = "*"
+numpy = "*"
 
 [requires]
 python_version = "3.9"
