@@ -7,6 +7,7 @@ verify_ssl = true
 
 [packages]
 jupyterlab = ">=3.0"
+blackcellmagic = "*"
 httpx = "*"
 reportlab = "*"
 python-dotenv = "*"
@@ -15,6 +16,7 @@ geojson = "*"
 ipyleaflet = "*"
 tqdm = "*"
 numpy = "*"
+jupyterlab-code-formatter = "*"
 
 [requires]
 python_version = "3.9"
