@@ -24,6 +24,6 @@ echo "|-------|------|---------------|"
 for filepath in $(fd ipynb); do
     title=$(get_notebook_title "$filepath");
     if [ $? != 1 ]; then
-        echo "| $title | \`$filepath\` | [![nbviewer]($nbviewer_badge)](https://nbviewer.jupyter.org/dolugen/notebooks/blob/main/$filepath) |";
+        echo "| $title | \`$filepath\` | [![nbviewer]($nbviewer_badge)](https://nbviewer.jupyter.org/github/dolugen/notebooks/blob/main/$filepath) |";
     fi
 done
