@@ -16,6 +16,11 @@ ipyleaflet = "*"
 tqdm = "*"
 numpy = "*"
 jupyterlab-code-formatter = "*"
+black = "21.4b2"
+isort = "*"
 
 [requires]
 python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
