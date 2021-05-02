@@ -1,4 +1,4 @@
 #!/bin/bash
 
 ./generate-toc.sh > _toc.md
-cat _header.md _toc.md > README.md
+cat _pre_toc.md _toc.md _post_toc.md > README.md
